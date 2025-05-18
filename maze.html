@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Maze Solver - BFS & DFS</title>
+  <link rel="stylesheet" href="mazecss.css" />
+</head>
+<body>
+  <h1>3D Maze Solver - BFS & DFS</h1>
+  <div class="controls">
+    <button onclick="setMode('start')">Start Point</button>
+    <button onclick="setMode('end')">End Point</button>
+    <button onclick="generateMaze()">Random Maze</button>
+    <button onclick="visualizeBFS()">Visualize BFS</button>
+    <button onclick="visualizeDFS()">Visualize DFS</button>
+  </div>
+  <div id="grid" class="grid"></div>
+  <script src="mazejs.js"></script>
+</body>
+</html>
